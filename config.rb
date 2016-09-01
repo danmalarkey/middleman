@@ -41,7 +41,48 @@ end
 # Activates live reloading of sites
 activate :livereload
 
-
 activate :blog do |blog|
-  # set options on blog
+  # This will add a prefix to all links, template references and source paths
+  # blog.prefix = "blog"
+
+  # blog.permalink = "{year}/{month}/{day}/{title}.html"
+  # Matcher for blog source files
+  # blog.sources = "{year}-{month}-{day}-{title}.html"
+  # blog.taglink = "tags/{tag}.html"
+  # blog.layout = "layout"
+  # blog.summary_separator = /(READMORE)/
+  # blog.summary_length = 250
+  # blog.year_link = "{year}.html"
+  # blog.month_link = "{year}/{month}.html"
+  # blog.day_link = "{year}/{month}/{day}.html"
+  # blog.default_extension = ".markdown"
+
+  # blog.tag_template = "tag.html"
+  # blog.calendar_template = "calendar.html"
+
+  # Enable pagination
+  # blog.paginate = true
+  # blog.per_page = 10
+  # blog.page_link = "page/{num}"
+
+
+  # =========================
+  # My stuff
+  # =========================
+
+    # set options on blog
+    blog.sources = "{category}/{title}.html"
+    blog.permalink = "{category}/{title}.html"
+
+    # pagination needs to be pageable: true on frontmatter
+    blog.paginate = true
+
+    blog.page_link = "p{num}"
+    blog.per_page = 10
+    blog.page_link = "page/{num}"
+
+    # blog.layout = "blog_layout"
 end
+
+
+activate :directory_indexes

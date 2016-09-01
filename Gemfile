@@ -10,7 +10,11 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
 
+gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 gem "middleman-cli"
 gem "middleman-core"
 gem "middleman-livereload"
 gem "middleman-blog"
+gem "middleman"
+gem "builder", "~> 3.0"
+# gem "builder"
