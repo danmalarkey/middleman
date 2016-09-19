@@ -6,16 +6,25 @@
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title>Welcome to Middleman</title>
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
   </head>
 
-  <body class="<%= page_classes %>">
-    <%= yield %>
+  <body class="index">
+        <div class="welcome">
+      <div class="logo">
+        <img src="/images/middleman-logo.svg" alt="Middleman logo" />
+      </div>
+      <h1>Middleman is Running</h1>
+      <p class="doc">
+        <a href="https://middlemanapp.com" target="_blank">Read Documentation Online</a>
+        <a href="/journal">Journal</a>
+      </p><!-- .doc -->
+    </div><!-- .welcome -->
     <script src="https://use.typekit.net/hzc5hrh.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </body>
