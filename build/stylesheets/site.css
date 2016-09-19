@@ -364,8 +364,10 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+/* Settings
+* * * * * * * * * * * * * * * */
 body {
-  background: #ECC561;
+  background: #f5f5f5;
   text-align: center;
   font-family: "ff-meta-web-pro", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem; }
@@ -376,26 +378,25 @@ body {
 
 h1 {
   color: rgba(0, 0, 0, 0.5);
-  font-family: "ff-meta-web-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "ff-meta-web-pro", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8em;
   font-weight: 400;
   margin: 0; }
 
 .doc {
   margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   font-weight: 300; }
   .doc a {
-    border: 1px solid white;
+    border: 1px solid #ccc;
     border-radius: 3px;
     padding: 0.75em 0.7em;
-    color: white;
+    color: #aaa;
     text-decoration: none;
     transition: color 0.1s linear; }
     .doc a:hover {
-      background: rgba(0, 0, 0, 0.2);
-      color: white;
+      background: rgba(0, 0, 0, 0.05);
+      color: #777;
       transition: all 0.15s linear; }
 
 .welcome {
