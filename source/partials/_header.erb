@@ -1,3 +1,16 @@
-<header>
-    <h6>This is a header</h6>
+<header class="global-header">
+    <div class="w-75 center-item">
+        <div class="two-item-wrapper">
+            <!-- <a href="/" class="logo type-bold">Malarkey.</a> -->
+            <%= link_to 'Malarkey.', '/', :class => "logo type-bold" %>
+            <nav class="global-nav">
+              <%= link_to 'journal', '/journal', :class => "nav-link" %>
+              <%= link_to 'about', '/about', :class => 'nav-link' %>
+              <%= link_to 'booklist', '/booklist', :class => 'nav-link' %>
+              <%= link_to 'speaking', '/speaking', :class => 'nav-link' %>
+              <%= link_to 'mentoring', '/mentoring', :class => 'nav-link' %>
+              <%= link_to 'contact', '/contact', :class => 'nav-link' %>
+            </nav>
+        </div>
+    </div>
 </header>

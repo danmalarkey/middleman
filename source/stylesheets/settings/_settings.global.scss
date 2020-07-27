@@ -1,6 +1,17 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background: #f5f5f5;
-    text-align: center;
-    font-family: $meta;
+    font-family: $grad-font-family;
     font-size: 1rem;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.06rem;
+}
+
+a,
+a:hover {
+    transition: .25s ease color;
 }

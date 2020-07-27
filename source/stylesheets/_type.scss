@@ -1,0 +1,14 @@
+// Font Family
+$grad-font: "grad", serif;
+$grad-font-family: $grad-font;
+
+
+$grad-regular: normal;
+$grad-italic: italic;
+
+$grad-400: 400;
+$grad-700: 700;
+
+.type-bold {
+    font-weight: $grad-700;
+}
