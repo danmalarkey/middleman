@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5a6e9f-d740-462d-9765-59966c89ab56" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/stylesheets/_global-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/stylesheets/_settings.global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/ae32601c6c1b078930260897b391bb474e5167c1/_settings.colors.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/ae32601c6c1b078930260897b391bb474e5167c1/_settings.colors.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/ae32601c6c1b078930260897b391bb474e5167c1/_settings.global.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/ae32601c6c1b078930260897b391bb474e5167c1/_settings.global.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/fe0be09ea6eb4859c971ae3925a6e512918fcc52/site.css.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/fe0be09ea6eb4859c971ae3925a6e512918fcc52/site.css.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/journal/2016-09-01-example-article/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/journal/2016-09-01-example-article/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/journal/2016-09-02-future-state/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/journal/2016-09-02-future-state/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/journal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/journal/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/journal.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/source/journal.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/journal/2016-09-01-example-article.html.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/source/journal/2016-09-01-example-article.html.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/journal/2016-09-02-future-state.html.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/source/journal/2016-09-02-future-state.html.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/partials/_header.erb" beforeDir="false" afterPath="$PROJECT_DIR$/source/partials/_header.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stylesheets/_global-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_global-header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stylesheets/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/settings/_settings.colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/settings/_settings.colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/settings/_settings.global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/settings/_settings.global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/settings/_settings.type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/settings/_settings.type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stylesheets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_settings.variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stylesheets/settings/_settings.colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_settings.colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stylesheets/settings/_settings.global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stylesheets/settings/_settings.type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_settings.type.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stylesheets/site.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/site.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thoughts/2012-01-01-example-article.html.markdown" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/thoughts/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts/config.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thoughts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts/index.html.erb" afterDir="false" />
     </list>
@@ -71,14 +63,15 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/thoughts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/stylesheets" />
       <recent name="$PROJECT_DIR$/source/stylesheets/_lib" />
       <recent name="$PROJECT_DIR$/source/thoughts" />
       <recent name="$PROJECT_DIR$/thoughts" />
       <recent name="$PROJECT_DIR$/source" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/thoughts" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,7 +114,11 @@
       <workItem from="1584669528364" duration="663000" />
       <workItem from="1585067996278" duration="10000" />
       <workItem from="1595781906952" duration="349000" />
-      <workItem from="1595782653769" duration="9597000" />
+      <workItem from="1595782653769" duration="9905000" />
+      <workItem from="1596038084173" duration="6000" />
+      <workItem from="1596070880708" duration="1933000" />
+      <workItem from="1596329611529" duration="628000" />
+      <workItem from="1596330480434" duration="676000" />
     </task>
     <servers />
   </component>

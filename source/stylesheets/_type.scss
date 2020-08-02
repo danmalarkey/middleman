@@ -1,14 +1,39 @@
-// Font Family
-$grad-font: "grad", serif;
-$grad-font-family: $grad-font;
-
-
-$grad-regular: normal;
-$grad-italic: italic;
-
-$grad-400: 400;
-$grad-700: 700;
+@import "settings.variables";
 
 .type-bold {
     font-weight: $grad-700;
+}
+
+.title {
+    font-size: 3.4rem;
+    font-size: calc(1vw + 1.5rem);
+    font-weight: $grad-700;
+    letter-spacing: -0.02rem;
+    color: $black-212;
+    margin-bottom: 0;
+
+    a {
+        text-decoration: none;
+        color: $black-212;
+    }
+
+    &.-xl {
+        font-size: calc(1.3vw + 2rem);
+    }
+}
+
+.timestamp {
+    font-size: 0.70rem;
+    color: lighten($black-212, 40%);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "source serif pro";
+    font-weight: 200;
+    font-size: 0.75rem;
+    letter-spacing: -0.01px;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
 }

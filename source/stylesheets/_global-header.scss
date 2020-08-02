@@ -17,7 +17,6 @@
 
 .global-nav {
     font-weight: $grad-400;
-    font-size: 0.7rem;
 
 
     .nav-link {
@@ -26,6 +25,7 @@
         text-transform: uppercase;
         border-bottom: 1px solid transparent;
         padding: .25rem;
+        font-size: 0.70rem;
 
         &.active,
         &:hover {
