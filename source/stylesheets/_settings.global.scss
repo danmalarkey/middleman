@@ -10,17 +10,32 @@ html {
 
 body {
     background: #f5f5f5;
+    // background: $white;
     font-family: $grad-font-family;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-optical-sizing: auto;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.06rem;
     line-height: 1.7;
 }
 
+hr {
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
 a,
 a:hover {
     transition: .25s ease color;
+    transition: box-shadow .25s ease;
+}
+
+figure {
+    margin: 0;
 }
 
 .logo img {

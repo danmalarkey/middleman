@@ -1,8 +1,9 @@
 ---
 title: The Definition of an Example
 date: 2016-09-01 14:01 UTC
-tags:
 summary: The Definition of An Example summary
+tags: design
+coverimg: https://images.unsplash.com/photo-1596369762427-f469c800b049?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80
 ---
 
 <p>

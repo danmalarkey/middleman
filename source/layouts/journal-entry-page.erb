@@ -17,15 +17,11 @@
   <%= partial 'partials/header' %>
 
   <body class="<%= page_classes %>">
-      <div class="w-75 center-item" style="padding: 1rem 3rem;">
+      <div class="w-75 center-item">
         <h1 class="title -xl"><%= current_page.data.title %></h1>
-        <ol>
-          <% page_articles.tags.each do |tag, articles| %>
-            <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-          <% end %>
-        </ol>
         <%= yield %>
       </div>
+      <%= partial 'partials/footer' %>
     <script src="https://use.typekit.net/hzc5hrh.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </body>

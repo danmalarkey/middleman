@@ -1,0 +1,43 @@
+.journal-entry {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    // padding: 1rem 3rem;
+}
+
+.journal-entry-intro {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 27rem;
+    transition: transform .25s ease;
+}
+
+.bg-img:hover {
+    transition: transform .25s ease;
+}
+
+.journal-content {
+    position: absolute;
+    width: 70%;
+    left: 2rem;
+    background-color: $white;
+    // background-color: rgba(255, 255, 255, .95%);
+    padding: 2rem;
+    bottom: -2rem;
+    // box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+    text-decoration: none;
+    color: $black-212;
+
+    &:hover {
+        box-shadow: 0 19px 38px rgba(0,0,0,0.12), 0 15px 12px rgba(0,0,0,0.22);
+        background-color: $yellow;
+
+        .timestamp {
+            color: $black-212;
+        }
+    }
+}

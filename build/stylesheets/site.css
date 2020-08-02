@@ -364,24 +364,96 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/* Settings
-* * * * * * * * * * * * * * * */
+.type-bold {
+  font-weight: 700; }
+
+.title {
+  font-size: 3.4rem;
+  font-size: calc(1vw + 1.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02rem;
+  color: #212121;
+  margin-bottom: 0; }
+  .title a {
+    text-decoration: none;
+    color: #212121; }
+  .title.-xl {
+    font-size: calc(1.3vw + 2rem); }
+
+.timestamp {
+  font-size: 0.70rem;
+  color: #878787;
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-family: "source serif pro";
+  font-weight: 200;
+  font-size: 0.75rem;
+  letter-spacing: -0.01px;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem; }
+
+.global-header {
+  width: 100%;
+  padding: 4rem; }
+
+.logo {
+  letter-spacing: -0.03rem;
+  color: #212121;
+  text-decoration: none; }
+
+.two-item-wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.global-nav {
+  font-weight: 400; }
+  .global-nav .nav-link {
+    color: #919191;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    padding: .25rem;
+    font-size: 0.70rem; }
+    .global-nav .nav-link.active, .global-nav .nav-link:hover {
+      border-bottom-color: #FCD900;
+      color: #212121;
+      background-color: #FCD900; }
+    .global-nav .nav-link.nav-link:not(:last-child) {
+      margin-right: .5rem; }
+
+.w-75 {
+  width: 75%; }
+
+.center-item {
+  margin-left: auto;
+  margin-right: auto; }
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; }
+
 body {
   background: #f5f5f5;
-  text-align: center;
-  font-family: "ff-meta-web-pro", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1rem; }
+  font-family: "grad", serif;
+  font-size: 1rem;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.06rem;
+  line-height: 1.7; }
+
+a,
+a:hover {
+  transition: .25s ease color; }
 
 .logo img {
   height: 18.75em;
   margin-top: 6em; }
-
-h1 {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: "ff-meta-web-pro", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
-  margin: 0; }
 
 .doc {
   margin: 3em 0;

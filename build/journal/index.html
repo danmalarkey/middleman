@@ -6,30 +6,94 @@
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>I am journal.</title>
+    <title>Middleman</title>
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://use.typekit.net/iln0ayq.css">
 
     <link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/all.js"></script>
   </head>
 
-  <header>
-    <h6>This is a header</h6>
+  <header class="global-header">
+    <div class="w-75 center-item">
+        <div class="two-item-wrapper">
+            <!-- <a href="/" class="logo type-bold">Malarkey.</a> -->
+            <a href="/" class="logo type-bold">Malarkey.</a>
+            <nav class="global-nav">
+              <a href="/journal" class="nav-link">journal</a>
+              <a href="/about" class="nav-link">about</a>
+              <a href="/booklist" class="nav-link">booklist</a>
+              <a href="/speaking" class="nav-link">speaking</a>
+              <a href="/mentoring" class="nav-link">mentoring</a>
+              <a href="/contact" class="nav-link">contact</a>
+            </nav>
+        </div>
+    </div>
 </header>
 
-  <body class="journal journal_index">
-    
-  <h2><a href="/journal/2016-09-01-example-article/">example-article</a> <span>Sep  1</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <h1>Example article.</h1>
 
-  <h2><a href="/journal/2016-09-02-future-state/">Future state in UI</a> <span>Sep  1</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <h1>Future State in UI</h1>
+  <body class="journal journal_index">
+    <!--this is the journal page layout for the blog-->
+
+<div class="journal-entry" style="width: 75%; margin-left: auto; margin-right: auto; padding: 1rem 3rem;">
+    <div class="center-item">
+      <article class="journal-entry-intro" style="background-image: url();">
+          <div class="journal-entry">
+              <div class="journal-content">
+                  <h1 class="title">
+                    <a href="/journal/2016-09-01-example-article/">The Definition of an Example</a>
+                  </h1>
+
+                  <time class="timestamp">Sep  1 2016</time>
+                  <p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the...</p>
+
+                  <a href="/journal/2016-09-01-example-article/">Read more</a>
+              </div>
+          </div>
+      </article>
+    </div>
+</div>
+<div class="journal-entry" style="width: 75%; margin-left: auto; margin-right: auto; padding: 1rem 3rem;">
+    <div class="center-item">
+      <article class="journal-entry-intro" style="background-image: url();">
+          <div class="journal-entry">
+              <div class="journal-content">
+                  <h1 class="title">
+                    <a href="/journal/2016-09-02-future-state/">Future state in UI</a>
+                  </h1>
+
+                  <time class="timestamp">Sep  1 2016</time>
+                  
+
+
+                  <a href="/journal/2016-09-02-future-state/">Read more</a>
+              </div>
+          </div>
+      </article>
+    </div>
+</div>
+<div class="journal-entry" style="width: 75%; margin-left: auto; margin-right: auto; padding: 1rem 3rem;">
+    <div class="center-item">
+      <article class="journal-entry-intro" style="background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80);">
+          <div class="journal-entry">
+              <div class="journal-content">
+                  <h1 class="title">
+                    <a href="/journal/2012-01-01-dans-example-article/">Prototyping is the key to success</a>
+                  </h1>
+
+                  <time class="timestamp">Jan  1 2012</time>
+                  <p><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1952&amp;q=80" width="100%"></p>
+
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit...</p>
+
+                  <a href="/journal/2012-01-01-dans-example-article/">Read more</a>
+              </div>
+          </div>
+      </article>
+    </div>
+</div>
 
 
 

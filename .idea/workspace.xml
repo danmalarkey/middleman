@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5a6e9f-d740-462d-9765-59966c89ab56" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/stylesheets/_settings.global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/journal.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/source/journal.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/journal/2012-01-01-another-example-article.html.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/source/journal/2012-01-01-another-example-article.html.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/journal/2016-09-01-example-article.html.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/source/journal/2016-09-01-example-article.html.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/journal/2016-09-02-future-state.html.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/source/journal/2016-09-02-future-state.html.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/_global-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_global-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_settings.variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/settings/_settings.colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_settings.colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/settings/_settings.global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/settings/_settings.type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_settings.type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/site.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/site.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thoughts/2012-01-01-example-article.html.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thoughts/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts/config.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thoughts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +107,7 @@
       <workItem from="1596038084173" duration="6000" />
       <workItem from="1596070880708" duration="1933000" />
       <workItem from="1596329611529" duration="628000" />
-      <workItem from="1596330480434" duration="676000" />
+      <workItem from="1596330480434" duration="2134000" />
     </task>
     <servers />
   </component>

@@ -1,14 +1,17 @@
 ---
 title: Prototyping is the key to success
-date: 2012-01-01,
-tags: example,
-summary: My Article Summary
+summary: The best way to success it slow and steady. During my career, I learned that prototyping and iterating is the key to a successful launch and transformation.
 layout: journal-entry-page
-tags: design, code
+date: 2012-01-01 14:01 UTC
+category: design
+coverimg: https://blog.feature23.com/images/is-it-product-design.jpg
 ---
 
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80" width="100%" />
 
+<!-- <img src={{articles.coverimg}} /> -->
+<figure>
+    <img src="https://blog.feature23.com/images/is-it-product-design.jpg" width="100%" />
+</figure>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
