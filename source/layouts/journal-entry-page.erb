@@ -17,8 +17,11 @@
   <%= partial 'partials/header' %>
 
   <body class="<%= page_classes %>">
-      <div class="w-75 center-item">
-        <h1 class="title -xl"><%= current_page.data.title %></h1>
+      <div class="sm--col --container">
+          <div class="text-c">
+              <h1 class="title -xl"><%= current_page.data.title %></h1>
+              <time class="timestamp"><%= current_page.date.strftime('%b %e %Y') %></time>
+          </div>
         <%= yield %>
       </div>
       <%= partial 'partials/footer' %>

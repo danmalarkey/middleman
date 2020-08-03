@@ -1,16 +1,31 @@
 ---
 title: Dan Malarkey is a design leader in Northeast Florida.
 ---
-<div class="w-75 center-item">
-    <h1 class="title -xl">A design leader focused on product.</h1>
+<div class="lg--col --container">
+    <h1 class="title -xl">A design leader centered on strategy, <br />technology, and product design.</h1>
+    <p style="color: rgba(0, 0, 0, .52); margin-top: 2rem;">
+        I am committed to growing capabilities across business and product teams throughout the business with a focus on outcomes.
+    </p>
+
+    <div style="margin-top: 4rem;">
+        <h4  style="margin-bottom: 1rem;">Latest Journal Entries</h4>
+        <div class="article-list lg--col --container">
+        <% page_articles[0...2].each do |article| %>
+            <article class="journal-entry-intro" style="background-image: url(<%= article.data.coverimg %>);">
+                <div class="journal-entry">
+                    <a href="<%= article.url %>" style="display: block;" class="journal-content">
+                        <div class="">
+                            <h1 class="title">
+                              <%= article.title %>
+                            </h1>
+                            <time class="timestamp"><%= article.date.strftime('%b %e %Y') %></time>
+                            <span><%= article.data.summary(300, '...') %></span>
+                        </div>
+                    </a>
+                </div>
+            </article>
+        <% end %>
+        </div>
+    </div>
+
 </div>
-    <div class="welcome">
-      <div class="logo">
-        <%= image_tag "middleman-logo.svg" %>
-      </div>
-      <h1>Dan Malarkey is a design leader in Northeast Florida.</h1>
-      <p class="doc">
-        <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-        <%= link_to "Journal", "/journal" %>
-      </p><!-- .doc -->
-    </div><!-- .welcome -->

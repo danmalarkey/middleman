@@ -4,7 +4,7 @@ per_page: 6
 ---
 <!--this is the journal page layout for the blog-->
 
-<div class="w-75 center-item">
+
     <% if paginate && num_pages > 1 %>
       <p>Page <%= page_number %> of <%= num_pages %></p>
 
@@ -12,32 +12,30 @@ per_page: 6
         <p><%= link_to 'Previous page', prev_page %></p>
       <% end %>
     <% end %>
+<div class="lg--col --container">
+    <h1 class="title -xl" style="margin-bottom: 2rem;">My thoughts.</h1>    
 </div>
 
+<div class="article-list lg--col --container">
 <% page_articles[0...6].each do |article| %>
-<div class="journal-entry">
-    <div class="center-item">
-      <article class="journal-entry-intro" style="background-image: url(<%= article.data.coverimg %>);">
-          <div class="journal-entry">
-              <a href="<%= article.url %>" style="display: block;" class="journal-content">
-                  <div class="">
-                      <h1 class="title">
-                        <%= article.title %>
-                      </h1>
-                      <time class="timestamp"><%= article.date.strftime('%b %e %Y') %></time>
-                      <p><%= article.data.summary(300, '...') %></p>
-                  </div>
-              </a>
-          </div>
-      </article>
-    </div>
-</div>
+    <article class="journal-entry-intro" style="background-image: url(<%= article.data.coverimg %>);">
+        <div class="journal-entry">
+            <a href="<%= article.url %>" style="display: block;" class="journal-content">
+                <div class="">
+                    <h1 class="title">
+                      <%= article.title %>
+                    </h1>
+                    <time class="timestamp"><%= article.date.strftime('%b %e %Y') %></time>
+                    <span><%= article.data.summary(300, '...') %></span>
+                </div>
+            </a>
+        </div>
+    </article>
 <% end %>
+</div>
 
-<div class="w-75 center-item">
     <% if paginate %>
       <% if next_page %>
         <p><%= link_to 'Next page', next_page %></p>
       <% end %>
     <% end %>
-</div>

@@ -1,6 +1,6 @@
 ---
-title: Prototyping is the key to success
-summary: The best way to success it slow and steady. During my career, I learned that prototyping and iterating is the key to a successful launch and transformation.
+title: Prototyping to success
+summary: Is this the key to a successful launch and transformation?
 layout: journal-entry-page
 date: 2012-01-01 14:01 UTC
 category: design

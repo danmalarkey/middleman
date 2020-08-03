@@ -6,13 +6,13 @@
 
 .title {
     font-size: 3.4rem;
-    font-size: calc(1vw + 1.15rem);
+    font-size: calc(1vw + 1.05rem);
     font-weight: $grad-700;
-    letter-spacing: -0.02rem;
+    letter-spacing: -0.01rem;
     color: $black-212;
     margin-bottom: .25rem;
     margin-top: 0;
-    line-height: 1.4;
+    line-height: 1.14;
 
     a {
         text-decoration: none;
@@ -20,7 +20,10 @@
     }
 
     &.-xl {
-        font-size: calc(1.3vw + 2rem);
+        font-size: calc(1.3vw + 2.05rem);
+        font-weight: $grad-400;
+        letter-spacing: -0.1rem;
+        line-height: 1.07;
     }
 }
 
@@ -35,13 +38,21 @@
 p {
     font-family: "source serif pro";
     font-weight: 200;
-    font-size: 1.6rem;
+    font-size: 1rem;
     letter-spacing: -0.01px;
     margin-bottom: 1.5rem;
     margin-top: 0.5rem;
     max-width: 75ch;
+    color: rgba(0, 0, 0, .85);
+}
 
-    &:not(:first-child) {
-        margin-bottom: 0;
-    }
+.text-c { text-align: center; }
+
+h2 {
+    line-height: 1.31;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    letter-spacing: -0.001rem;
 }
