@@ -15,8 +15,7 @@ body {
     font-size: 1rem;
     font-optical-sizing: auto;
     text-rendering: optimizeLegibility;
-    letter-spacing: 0.06rem;
-    line-height: 1.7;
+    line-height: 1.38;
     padding: 2rem;
     color: $black-212;
 }
@@ -93,4 +92,9 @@ figure {
     to {
         -webkit-transform: scale(1);
     }
+}
+
+.masthead {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }

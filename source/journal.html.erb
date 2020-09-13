@@ -13,24 +13,54 @@ per_page: 6
       <% end %>
     <% end %>
 <div class="lg--col --container">
-    <h1 class="title -xl" style="margin-bottom: 2rem;">My thoughts.</h1>    
+    <h1 class="title -sm" style="margin-bottom: 2rem;">My thoughts.</h1>
+</div>
+
+<div class="lg--col --container">
+<% page_articles[0...1].each do |article| %>
+    <article class="" style="display: flex; margin-bottom: 2rem; box-shadow: 0 80px 120px -40px rgba(0, 0, 0, .25); border-radius: 40px;">
+        <a href="<%= article.url %>" style="display: flex; width: 100%; text-decoration:none;">
+            <div class="" style="background-image: url(<%= article.data.coverimg %>);background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                width: 100%;
+                transition: transform .25s ease;
+                width: 50%;
+                border-radius: 40px 0 0 40px;">
+            </div>
+            <div class="" style="width:50%; background-color: white;padding:6rem 8rem; border-radius: 0 40px 40px 0;">
+                <span style="display: block; margin-bottom: 0; bottom: 0;" class="">
+                    <div class="">
+                        <div class="" style="margin-bottom: 2rem;">
+                            <!-- <span style="background-color: #FCD900; padding: .5rem 1rem; position: relative; font-size: .5rem; text-transform: uppercase; margin-bottom: 2rem;">latest</span> -->
+                        </div>
+                        <h1 class="title">
+                          <%= article.title %>
+                        </h1>
+                        <time class="timestamp"><%= article.date.strftime('%b %e %Y') %></time>
+                        <span><%= article.data.summary(300, '...') %></span>
+                    </div>
+                </span>
+            </div>
+        </a>
+    </article>
+<% end %>
 </div>
 
 <div class="article-list lg--col --container">
-<% page_articles[0...6].each do |article| %>
-    <article class="journal-entry-intro" style="background-image: url(<%= article.data.coverimg %>);">
-        <div class="journal-entry">
-            <a href="<%= article.url %>" style="display: block;" class="journal-content">
-                <div class="">
-                    <h1 class="title">
-                      <%= article.title %>
-                    </h1>
-                    <time class="timestamp"><%= article.date.strftime('%b %e %Y') %></time>
-                    <span><%= article.data.summary(300, '...') %></span>
-                </div>
-            </a>
+<% page_articles[1...5].each do |article| %>
+<article class="journal-entry">
+    <a href="<%= article.url %>" style="display: block;" class="journal-content">
+        <div class="">
+            <h1 class="title -sm">
+              <%= article.title %>
+            </h1>
+            <time class="timestamp"><%= article.date.strftime('%b %e %Y') %></time>
+            <span><%= article.data.summary(300, '...') %></span>
         </div>
-    </article>
+    </a>
+</article>
 <% end %>
 </div>
 

@@ -1,13 +1,15 @@
 ---
 title: Dan Malarkey is a design leader in Northeast Florida.
 ---
-<div class="lg--col --container">
-    <h1 class="title -xl">A design leader centered on strategy, <br />technology, and product design.</h1>
-    <p style="color: rgba(0, 0, 0, .52); margin-top: 2rem;">
-        I am committed to growing capabilities across business and product teams throughout the business with a focus on outcomes.
+<div class="lg--col --container masthead">
+    <h1 class="title -xl leading-title">Proficient design leader predicated on strategy, technology, and product design.</h1>
+    <p style="color: rgba(0, 0, 0, .52); margin-top: 2rem; font-size: .75rem; font-family: roboto; font-weight: 400; font-size: 1rem; line-height: 1.55;">
+        From Olympic gold medalists to organizations with a revenue of $2B a year,
+        I commit myself to helping organizations grow their capabilities across business and product teams.
+        At feature[23], I spend my days designing the right software for clients across many industries where I lead with a focus on business outcomes.
     </p>
 
-    <div style="margin-top: 4rem;">
+    <!-- <div style="margin-top: 4rem;">
         <h4  style="margin-bottom: 1rem;">Latest Journal Entries</h4>
         <div class="article-list lg--col --container">
         <% page_articles[0...2].each do |article| %>
@@ -26,6 +28,60 @@ title: Dan Malarkey is a design leader in Northeast Florida.
             </article>
         <% end %>
         </div>
-    </div>
+    </div> -->
 
+</div>
+<!--
+<div class="lg--col --container">
+<% page_articles[0...1].each do |article| %>
+    <article class="" style="display: flex; margin-bottom: 2rem; box-shadow: 0 14px 28px rgba(0, 0, 0, .22); border-radius: 40px;">
+        <a href="<%= article.url %>" style="display: flex; width: 100%;">
+            <div class="" style="background-image: url(<%= article.data.coverimg %>);background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                width: 100%;
+                transition: transform .25s ease;
+                width: 50%;
+                border-radius: 40px 0 0 40px;">
+                <span style="background-color: #FCD900; padding: .5rem 1rem; position: absolute; left: 2rem; top: 2rem; font-size: .5rem; text-transform: uppercase;">featured post</span>
+            </div>
+            <div class="" style="width:50%; background-color: white;padding:3rem; border-radius: 0 40px 40px 0;">
+                <span style="display: block; margin-bottom: 0; bottom: 0;" class="journal-content">
+                    <div class="">
+                        <h1 class="title">
+                          <%= article.title %>
+                        </h1>
+                        <time class="timestamp"><%= article.date.strftime('%b %e %Y') %></time>
+                        <span><%= article.data.summary(300, '...') %></span>
+                    </div>
+                </span>
+            </div>
+        </a>
+    </article>
+<% end %>
+</div>
+-->
+
+
+<div class="lg--col --container">
+    <h1 class="title" style="margin-bottom: 2rem;">Writing</h1>
+    <p>
+        Comprehensive eassys, in-the-field research reports, and product analysis. I will share my thoughts on design, research, product design and development, and leadership.
+    </p>
+</div>
+<div class="article-list lg--col --container">
+<% page_articles[0...3].each do |article| %>
+<article class="journal-entry">
+    <a href="<%= article.url %>" style="display: block;" class="journal-content">
+        <div class="">
+            <h1 class="title -sm">
+              <%= article.title %>
+            </h1>
+            <time class="timestamp"><%= article.date.strftime('%b %e %Y') %></time>
+            <span><%= article.data.summary(300, '...') %></span>
+        </div>
+    </a>
+</article>
+<% end %>
 </div>

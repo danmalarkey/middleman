@@ -13,6 +13,8 @@
     margin-bottom: .25rem;
     margin-top: 0;
     line-height: 1.14;
+    font-variant-ligatures: normal;
+    font-feature-settings: 'calt', 'clig', 'kern', 'liga', 'locl', 'rlig';
 
     a {
         text-decoration: none;
@@ -24,6 +26,24 @@
         font-weight: $grad-400;
         letter-spacing: -0.1rem;
         line-height: 1.07;
+        font-variant-ligatures: normal;
+        font-feature-settings: 'calt', 'clig', 'kern', 'liga', 'locl', 'rlig';
+    }
+
+    &.-sm {
+        font-size: calc(0.5vw + 1rem);
+        font-weight: $grad-700;
+        letter-spacing: -0.01rem;
+        font-variant-ligatures: normal;
+        font-feature-settings: 'calt', 'clig', 'kern', 'liga', 'locl', 'rlig';
+    }
+
+    &.leading-title {
+        width: 50vw;
+        font-size: calc(1.3vw + 2.05rem);
+        max-width: 31ch;
+        font-variant-ligatures: normal;
+        font-feature-settings: 'calt', 'clig', 'kern', 'liga', 'locl', 'rlig';
     }
 }
 
